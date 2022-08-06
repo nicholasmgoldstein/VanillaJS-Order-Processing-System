@@ -1,3 +1,5 @@
+//From 2019. I code much better now.
+
 var order = [];
 var prices = [];
 
