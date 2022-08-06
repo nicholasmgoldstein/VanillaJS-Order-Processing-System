@@ -1,6 +1,6 @@
+//From 2019. I'm much better at coding now.
+
 var x;
-
-
 function loadingPage(){
     revItems();
 }
@@ -11,27 +11,21 @@ function between(x, min, max) {
 
 function ajaxPip(){
      $.ajax({
-            url: 'https://jamslunch.com/sendmailpip.php',
+            url: '--your php file--',
             type: 'post',
             data: $('#pipCheckoutForm').serialize(),
             success: function () {
             alert("Order Sent! Check Your Email For Your Order Confirmation! We May Have Ended up in Junk Mail!");
-            location.replace('https://jamslunch.com/OrderConfirmation.php');  
+            location.replace('/OrderConfirmation.php');  
             },
             error: function () {
             alert("Order Sent! Check Your Email For Your Order Confirmation! We May Have Ended up in Junk Mail!");
-            location.replace('https://jamslunch.com/OrderConfirmation.php');  
+            location.replace('/OrderConfirmation.php');  
             }
             
           });
-    window.location.replace("https://jamslunch.com/OrderConfirmation.php/");
+    window.location.replace("/OrderConfirmation.php/");
 }
-
-
-
-
-
-    
 
 function getDocHeight() {
     var D = document;
@@ -47,10 +41,6 @@ $(window).scroll(function() {
            document.getElementById("footerJams").style.display = 'none';
        }
    });
-   
-
-   
-   
 
 var person;
 let jamsorderrelease;
@@ -58,9 +48,6 @@ let jamsorderrelease;
 function runthru(){
         for (i = 0; i < jamsorder.length; i++){
             jamsorderrelease = jamsorderrelease + ", " + jamsorder[i];
-            
-            
-        
     }
     return jamsorderrelease;
 
@@ -71,12 +58,6 @@ var NTtotal = 0;
 
 
 function getOrderString(){
-    
-/*jamsorder.forEach( (num1, index) => {
-    const num2 = prices[index];
-    orderString = num1 + " " + num2 + " \n";
-});*/
-
     var xyz = jamsorder.toString();
     var zyx = prices.toString();
     orderString = xyz + "(Prices in Order: $" + zyx + ")";
@@ -87,18 +68,12 @@ function sumMinusTax() {
     NTtotal = Math.floor(NTtotal * 100) / 100;
     NTtotal.toFixed(2);
     return NTtotal;
-    
 }
 
 
 function pip() {
     document.getElementById('pipCheckout').style.left = '0%';
-    document.getElementById('pipCheckout').style.opacity = '.85';
-
-
-
-
-        
+    document.getElementById('pipCheckout').style.opacity = '.85'; 
         getOrderString();
         
         document.getElementById("senderNTTotal").value = sumMinusTax();
@@ -106,10 +81,6 @@ function pip() {
         document.getElementById("senderOrder").value = orderString;
         
         document.getElementById("orderString").innerText = orderString;
-        
-
-
-
 }
 
 function overarchingfunction() {
@@ -137,10 +108,6 @@ function jsPhpConnectorName(ele) {
     var jsVarPhone = ele;
     $.post('OrderConfirmation.php', {variable3: jsVarPhone});
   }
-
-
-
-
 
         const Pancakes = 
         [
@@ -5044,20 +5011,6 @@ function hideItemOverlay3() {
     document.getElementById("nameOverlay4").style.opacity = '0';
 }
 
-//COMMAND CENTER JS
-
-function checkPassword() {
-    var password = document.getElementById("passPrompt").value;
-    if (password == 'hiddenCode6709') {
-        document.getElementById("blockBody").style.display = "none";
-        document.getElementById("passwordModal").style.display = "none";
-    }
-    else {
-        alert('That is the wrong password');
-    }}
-
-
-
       paypal.Buttons({
         style: {
           shape: 'pill',
@@ -5086,16 +5039,14 @@ function checkPassword() {
 
     // Get the order details
     return actions.order.get().then(function (orderDetails) {
-            getOrderString();
-
-        
+        getOrderString();
         document.getElementById("senderNTTotal").value = sumMinusTax();
         document.getElementById("senderTotal").value = establishSum();
             document.getElementById("senderOrderpp").value = orderString;
             
 
             $.ajax({
-            url: 'https://jamslunch.com/sendmail.php',
+            url: '/sendmail.php',
             type: 'post',
             data: $('#ppCheckoutForm').serialize(),
             success: function () {
@@ -5105,7 +5056,7 @@ function checkPassword() {
       
           actions.order.capture().then(function () {
               alert("Transaction Complete! Check your email, we may have have ended up in your spam folder!");
-              location.replace('https://jamslunch.com/OrderConfirmation.php/');
+              location.replace('/OrderConfirmation.php/');
               
             // Show a confirmation to the buyer
             
