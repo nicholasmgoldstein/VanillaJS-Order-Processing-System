@@ -1,0 +1,1043 @@
+{
+    "menuJams": {
+
+        "chefSelection":[
+            {
+                "item":"1",
+                "price":0
+            },
+            {
+                "item":"2",
+                "price":0
+            },
+            {
+                "item":"3",
+                "price":0
+            },
+            {
+                "item":"4",
+                "price":0
+            }
+
+        ],
+
+        "Breakfast":[
+            {
+
+
+
+        "Pancakes":[
+        {"item":"1 Pancake",
+        "price":2.00,
+
+            "add-ons":{"blueberries":{
+                "add-on price":0.50},
+            "chocolate chips":{
+                "add-on price":0.50},
+            "M&Ms":{
+                "add-on price":0.50},
+            "Strawberry Topping":{
+                "add-on price":0.50}
+                }
+            },
+        {"item":"2 Pancakes",
+        "price":3.00,
+        
+            "add-ons":{"blueberries":{
+                "add-on price":0.50},
+            "chocolate chips":{
+                "add-on price":0.50},
+            "M&Ms":{
+                "add-on price":0.50},
+            "Strawberry Topping":{
+                "add-on price":0.50}
+                }
+            } ,  
+        {"item":"3 Pancakes",
+        "price":4.00,
+                
+            "add-ons":{"blueberries":{
+                "add-on price":0.50},
+            "chocolate chips":{
+                "add-on price":0.50},
+            "M&Ms":{
+                "add-on price":0.50},
+            "Strawberry Topping":{
+                "add-on price":0.50}
+                }
+            }, 
+            
+        {"item":"4 Pancakes",
+        "price":5.00,
+                        
+            "add-ons":{"blueberries":{
+                "add-on price":0.50},
+            "chocolate chips":{
+                "add-on price":0.50},
+            "M&Ms":{
+                "add-on price":0.50},
+            "Strawberry Topping":{
+                "add-on price":0.50}
+                    }
+                }  
+            ],
+        "Eggs": [ //check if it's toast, homefries, and sausage patty or ham or one or the other
+            {
+                "item":"1 Egg Any Style w/Toast & Homefries",
+                "price":2.50
+            },
+            {
+                "item":"1 Egg Any Style w/Toast, Homefries w/ Sausage Patty or Ham",
+                "price":5.00
+            },
+            {
+                "item":"2 Eggs Any Style w/Toast & Homefries",
+                "price":3.00
+            },
+            {
+                "item":"2 Eggs Any Style w/Toast, Homefries w/ Sausage Patty or Ham",
+                "price":5.00
+            }
+        ],
+        "French Toast": [
+            {
+                "item":"1 Slice French Toast",
+                "price":2.00,
+                "add-ons":{
+                    "Strawberry Topping":{
+                        "add-on price":0.50
+                    }
+                }          
+            },
+            {
+                "item":"2 Slices French Toast",
+                "price":3.00,
+                "add-ons":{
+                    "Strawberry Topping":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"3 Slices French Toast",
+                "price":4.00,
+                "add-ons":{
+                    "Strawberry Topping":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"4 Slices French Toast",
+                "price":5.00,
+                "add-ons":{
+                    "Strawberry Topping":{
+                        "add-on price":0.50
+                    }
+                }
+
+            }
+
+        ],
+
+        "Corned Beef Hash": [
+            {
+                "item":"Corned Beef Hash w/ 2 Eggs, Toast, & Homefries",
+                "price":7.00
+            }
+
+        ],
+
+        "Sandwiches (Served on Toast, Hard Roll, Bagel or English Muffin)": [
+            {
+                "item":"Fried Egg Sandwich (2 Eggs)",
+                "price":3.00,
+                "add-ons":{
+                    "w/ Ham, Bacon or Sausage":{
+                        "add-on price":2.00
+                    }
+                }
+            },
+            {
+                "item":"Western Egg Sandwich",
+                "price":4.00,
+                "add-ons":{
+                    "w/ Cheese":{
+                        "add-on price":0.50
+                    }
+                }
+            }
+        ],
+
+        "Omelettes (1 Egg Default)": [
+            {
+                "item":"Three Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                            "add-on price":0.50
+                        },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Ham & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Bacon & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Sausage & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Spinach & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Mushroom & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Broccoli & Cheddar Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Western Omelet (Onion, Pepper & Ham)",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Vegetable Omelet (Onion, Pepper, Mushroom & Tomato)",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Salsa & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Ham, Sausage & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Bacon, Tomato & Cheese Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Taco Omelet (Taco Meat, Onion, Pepper, Tomato & Cheddar)",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Chili & Cheddar Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Philly Omelet (Sliced Beef, Onions, Tomato & Cheddar)",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "in Mini Quesadilla":{
+                        "add-on price":1.00
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Feta Omelet",
+                "price":3.50,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":0.50
+                    },
+                    "2 Eggs Total":{
+                        "add-on price":1.00
+                    },
+                    "3 Eggs Total":{
+                        "add-on price":2.00
+                    },
+                    "in Mini Wrap":{
+                        "add-on price":0.50
+                    },
+                    "Upgrade from Homefries to Hash Browns":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+            "item":"Spinach & Feta Omelet",
+            "price":3.50,
+            "add-ons":{
+                "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                    "add-on price":0.50
+                },
+                "2 Eggs Total":{
+                    "add-on price":1.00
+                },
+                "3 Eggs Total":{
+                    "add-on price":2.00
+                },
+                "in Mini Wrap":{
+                    "add-on price":0.50
+                },
+                "Upgrade from Homefries to Hash Browns":{
+                    "add-on price":0.50
+                }
+            }
+        },
+        {
+            "item":"Greek Omelet (Tomato, Onion & Feta)",
+            "price":3.50,
+            "add-ons":{
+                "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                    "add-on price":0.50
+                },
+                "2 Eggs Total":{
+                    "add-on price":1.00
+                },
+                "3 Eggs Total":{
+                    "add-on price":2.00
+                },
+                "in Mini Wrap":{
+                    "add-on price":0.50
+                },
+                "Upgrade from Homefries to Hash Browns":{
+                    "add-on price":0.50
+                }
+            }
+        },
+        {
+            "item":"Mediterranian Omelet (Feta, Tomato & Spinach)",
+            "price":3.50,
+            "add-ons":{
+                "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                    "add-on price":0.50
+                },
+                "2 Eggs Total":{
+                    "add-on price":1.00
+                },
+                "3 Eggs Total":{
+                    "add-on price":2.00
+                },
+                "in Mini Wrap":{
+                    "add-on price":0.50
+                },
+                "Upgrade from Homefries to Hash Browns":{
+                    "add-on price":0.50
+                }
+            }
+        },
+        {
+            "item":"Italian Omelet (Italian Sausage, Pepper, Onion, Tomato, Mozzarella Cheese & Marinara Sauce)",
+            "price":3.50,
+            "add-ons":{
+                "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                    "add-on price":0.50
+                },
+                "2 Eggs Total":{
+                    "add-on price":1.00
+                },
+                "3 Eggs Total":{
+                    "add-on price":2.00
+                },
+                "in Mini Wrap":{
+                    "add-on price":0.50
+                },
+                "Upgrade from Homefries to Hash Browns":{
+                    "add-on price":0.50
+                }
+            }
+        }
+
+
+        ],
+
+        "Specialty Omelettes (3 Eggs)" : [
+            {
+                "item":"Corned Beef Hash & Cheese Omelet",
+                "price":10.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+
+            },
+            {
+                "item":"Seafood AuGratin Omelet",
+                "price":13.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    }
+                    ,
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+            },
+            {
+                "item":"Alaskan Omelet",
+                "price":12.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    }
+                    ,
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+
+            },
+            {
+                "item":"Shrimp Creole Omelet",
+                "price":12.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+            },
+            {
+                "item":"Seafood Gumbo Omelet",
+                "price":12.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+
+            },
+            {
+                "item":"Mexican Chicken Omelet",
+                "price":10.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+            },
+            {
+                "item":"Mexican Steak Omelet",
+                "price":11.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+
+            },
+            {
+                "item":"Chicken Mediterranian Omelet",
+                "price":10.00,
+                "add-ons":{
+                    "Ham, Bacon, Sausage, Onion, Pepper, Cheese, Mushroom, Broccoli, Spinach, Tomato, Salsa, Avocado or Jalapeno (specify in special instructions)":{
+                        "add-on price":1.00
+                    },
+                    "Substitute Egg Whites":{
+                        "add-on price":1.00
+                    }
+                }
+            }
+
+        ],
+
+        "Not So Benedicts (Served with Poached Eggs on Toasted English Muffins Topped w/ Cheddar Cheese Sauce & Homefries)": [
+            {
+                "item":"The English",
+                "price":8.00,
+                "description":"Served on Ham, muffin and cheese sauce"
+            },
+            {
+                "item":"The Irish",
+                "price":9.00,
+                "description":"Served over Corned Beef Hash, muffin & sauce"
+            },
+            {
+                "item":"The Mickey",
+                "price":8.00,
+                "description":"Served on Sausage Patties muffin & cheese sauce"
+            },
+            {
+                "item":"The Popeye",
+                "price":8.00,
+                "description":"Served on Sauteed Spinach muffin & cheese sauce"
+            },
+            {
+                "item":"The Patrick",
+                "price":9.00,
+                "description":"Served on Crabcakes muffin & cheese sauce"
+            },
+            {
+                "item":"Ground Taco Meat",
+                "price":8.00,
+                "description":"Under 2 Eggs Topped with Shredded Cheddar Cheese Tomatoes Onions Jalapenos"
+            },
+            {
+                "item":"Carne Asada",
+                "price":11.00,
+                "description":"8oz. Sliced Shelf Seasoned Steak Under 2 Eggs Topped with Shredded Cheddar Cheese Tomatoes Onions Jalapenos"
+            },
+            {
+                "item":"Chipotle Seasoned Chicken",
+                "price":10.00,
+                "description":"Under 2 Eggs Topped with Shredded Cheddar Cheese Tomatoes Onions Jalapenos"
+            }
+
+        ],
+
+        "Seafood Breakfasts (Served with 2 Eggs Any Style, Homefries & Toast)": [
+            {
+                "item":"Broiled Salmon",
+                "price":12.75,
+                "description":"in butter & wine"
+            },
+            {
+                "item":"Salmon Florentine",
+                "price":14.00,
+                "description":"Spinach, garlic and butter"
+            },
+            {
+                "item":"Garden Salmon",
+                "price":14.25,
+                "description":"Broccoli, onions, peppers, zucchini, squash garlic butter"
+            },
+            {
+                "item":"Broiled Haddock",
+                "price":10.00,
+                "description":"in butter & wine"
+            },
+            {
+                "item":"Garden Haddock",
+                "price":11.50,
+                "description":"Broccoli, onions, peppers, zucchini, squash garlic butter"
+            },
+            {
+                "item":"Shrimp Scampi",
+                "price":11.50,
+                "description":"Garlic Butter Sauce"
+            }
+            
+            
+        ],
+
+        "Combination Breakfasts": [
+            {
+                "item":"The Triple Double (2 Pancakes, 2 French Toast Slices, 2 Eggs Any Style, 2 Hash Browns, 2 Sausage Patties, 2 Bacon Slices & a Drink)",
+                "price":13.00
+            },
+            {
+                "item":"The Double Double (2 Pancakes, 2 French Toast Slices, 2 Eggs Any Style, 1 Sausage Patty, 2 Slices of Bacon & a Drink)",
+                "price":9.00
+            },
+            {
+                "item":"The Double Combo (2 Pancakes OR 2 French Toast Slices w/ 2 Eggs Any Style, 1 Sausage Patty, 2 Slices of Bacon & a Drink - Specify Choice in Special Instructions)",
+                "price":6.50
+            },
+            {
+                "item":"The Single Combo (1 Pancake, 1 French Toast Slice, 2 Eggs Any Style, 1 Sausage Patty, 2 Slices of Bacon & a Drink)",
+                "price":6.50
+            },
+            {
+                "item":"Meat and Potatoes (Ham, 2 Sausage Patties, 2 Slices of Bacon, 2 Eggs Any Style, Homefries & a Drink)",
+                "price":9.00
+            },
+            {
+                "item":"The Caveman (Homefries Topped w/ Eggs Scrambled, Chopped Ham, Sausage, Bacon, Onions, Peppers, Tomatoes & Shredded Cheddar Cheese)",
+                "price":7.00
+            }
+        ],
+
+        "Family Breakfasts": [
+            {
+                "item":"4 Pancakes, 4 French Toast Slices, 4 Sausage Patties, 8 Slices of Bacon, 8 Scrambled Eggs & 4 Hash Browns",
+                "price":20.00,
+                "add-ons":{
+                    "w/ 4 Drinks": {
+                        "add-on price":5.00
+                    }
+                }
+            },
+            {
+                "item":"Any Combo of 10 French Toast or Pancakes, 8 Sausage Patties, 16 Slices of Bacon, 12 Scrambled Eggs & 4 Hash Browns",
+                "price":30.00,
+                "add-ons":{
+                    "w/ 4 Drinks": {
+                        "add-on price":5.00
+                    }
+                }
+            },
+            {
+                "item":"4 Fried Egg Sandwiches on Hard Rolls w/ Bacon, Ham or Sausage w/ Cheese & 4 Hash Browns",
+                "price":25.00,
+                "add-ons":{
+                    "w/ 4 Drinks": {
+                        "add-on price":5.00
+                    }
+                }
+            }
+        ],
+
+        "Sides": [
+            {
+                "item":"1 Egg Any Style",
+                "price":1.00
+            },
+            {
+                "item":"Homefries",
+                "price":2.50
+            },
+            {
+                "item":"2 Hash Browns",
+                "price":3.00
+            },
+            {
+                "item":"Corned Beef Hash",
+                "price":4.00
+            },
+            {
+                "item":"Toast (White, Wheat, or Rye)",
+                "price":1.50
+            },
+            {
+                "item":"English Muffin",
+                "price":1.50
+            },
+            {
+                "item":"Hard Roll (Grilled)",
+                "price":2.00
+            },
+            {
+                "item":"Bagel (Toasted)",
+                "price":2.00,
+                "add-ons":{
+                    "w/ Cream Cheese":{
+                        "add-on price":0.50
+                    }
+                }
+            },
+            {
+                "item":"Bacon, Ham, or Sausage Patty (Specify in Special Instructions)",
+                "price":2.50
+            },
+            {
+                "item":"Italian Sausage Links",
+                "price":3.00
+            },
+            {
+                "item":"Fresh Fruit Salad",
+                "price":3.50
+            }
+        ],
+
+        "Breakfast Munchies (Served on Toast or English Muffin)": [
+            {
+                "item":"1 Egg Sandwich",
+                "price":1.75,
+                "add-ons":{
+                    "w/ Bacon":{
+                        "add-on price":1.00
+                    },
+                    "w/ Cheese":{
+                        "add-on price":0.25
+                    }
+                }
+            },
+            {
+                "item":"1 Sausage Patty",
+                "price":1.75,
+                "add-ons":{
+                    "w/ Cheese":{
+                        "add-on price":0.25
+                    },
+                    "w/ Egg":{
+                        "add-on price":1.00
+                    }
+                }
+            },
+            {
+                "item":"1 Single Hashbrown",
+                "price":1.50
+            }
+        ],
+
+        "KIDS Menu (Served with Drink)": [
+            {
+                "item":"2 Eggs w/ Toast",
+                "price":3.00
+            },
+            {
+                "item":"2 Eggs w/ Toast w/ Bacon or Sausage",
+                "price":4.25
+            },
+            {
+                "item":"2 Pancakes",
+                "price":3.00,
+                "add-ons":{
+                    "Bacon on the side":{
+                        "add-on price":1.25
+                    },
+                    "Sausage on the side":{
+                        "add-on price":1.25
+                    }
+                }
+            },
+            {
+                "item":"2 French Toast",
+                "price":3.00,
+                "add-ons":{
+                    "Bacon on the side":{
+                        "add-on price":1.25
+                    },
+                    "Sausage on the side":{
+                        "add-on price":1.25
+                    }
+                }
+            },
+            {
+                "item":"Cheese Omelette",
+                "price":3.50
+            }
+        ],
+
+        "Drinks": [
+            {
+                "item":"Coffee (w/ Refill)",
+                "price":2.00
+            },
+            {
+                "item":"Milk",
+                "price":2.00
+            },
+            {
+                "item":"Chocolate Milk",
+                "price":2.00
+            },
+            {
+                "item":"Juice 8oz. (Orange, Apple, Grapefruit, Cranberry, Tomato, or Pineapple) Specify in Special Instructions",
+                "price":2.00
+            },
+            {
+                "item":"Hot Chocolate",
+                "price":2.00
+            },
+            {
+                "item":"Iced Tea",
+                "price":2.00
+            },
+            {
+                "item":"Soda",
+                "price":2.00
+            },
+            {
+                "item":"Water Bottle",
+                "price":2.00
+            }
+        ]
+        }
+        ]
+    }
+}
